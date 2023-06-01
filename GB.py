@@ -11,7 +11,7 @@ sdl_dll_directory = "./libraries"
 os.environ["PYSDL2_DLL_PATH"] = sdl_dll_directory
 
 # Create a PyBoy instance
-gameboy = PyBoy("./PKMNSILVER.GBC",disable_renderer=False)
+gameboy = PyBoy("./RomExample.rom",disable_renderer=False)
 
 previous_frame = None
 pressed_buttons = set()
